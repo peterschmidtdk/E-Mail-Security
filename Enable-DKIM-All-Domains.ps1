@@ -1,4 +1,14 @@
-#Revision: 0.1
+<#
+.SYNOPSIS
+    Get all custom domains of your Microsoft tenant and get DKIM info for each domain.
+.DESCRIPTION
+    Get all custom domains of your Microsoft tenant and get DKIM info for each domain.
+    Provide a CSV file with all your
+.EXAMPLE
+    PS C:\> .\DKIM-All-Domains.ps1
+.NOTES
+    None
+#>
 
 Write-Host "Getting list of all custom domains" -ForegroundColor Yellow
 $EXOdomains = (Get-AcceptedDomain | ? { $_.name -NotLike '*.onmicrosoft.com'}).name 
