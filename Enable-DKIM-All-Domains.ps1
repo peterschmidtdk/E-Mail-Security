@@ -5,7 +5,7 @@
     Get all custom domains of your Microsoft tenant and get DKIM info for each domain.
     Provide a CSV file with all your
 .EXAMPLE
-    PS C:\> .\DKIM-All-Domains.ps1
+    PS C:\> .\Enable-DKIM-All-Domains.ps1
 .NOTES
     None
 #>
