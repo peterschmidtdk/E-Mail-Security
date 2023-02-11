@@ -2,8 +2,8 @@
 .SYNOPSIS
     Get all custom domains of your Microsoft tenant and get DKIM info for each domain.
 .DESCRIPTION
-    Get all custom domains of your Microsoft tenant and get DKIM info for each domain.
-    Provide a CSV file with all your
+    Get all custom domains of your Microsoft tenant and enable DKIM for each domain.
+    Write the DKIM info to output
 .EXAMPLE
     PS C:\> .\Enable-DKIM-All-Domains.ps1
 .NOTES
